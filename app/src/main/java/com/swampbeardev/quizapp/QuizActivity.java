@@ -161,4 +161,10 @@ public class QuizActivity extends AppCompatActivity {
         option2.setEnabled(true);
         option3.setEnabled(true);
     }
+
+    public void onClick(View view) {
+        if (view.getId() == R.id.finishQuiz) {
+            finish();
+        }
+    }
 }
