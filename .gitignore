@@ -1,1 +1,43 @@
+### Android Studio ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+captures/
+
+### Gradle ###
+.gradle/
+gradle/
+build/
+app/build/
 local.properties
+*.log
+
+### Gradle Wrapper ###
+gradlew
+gradlew.bat
+
+### Compiled Code & Temporary Files ###
+*.class
+*.jar
+*.apk
+*.dex
+
+### Android Generated Files ###
+gen/
+bin/
+app/.cxx/
+app/intermediates/
+app/exploded-aar/
+
+### Cache & Index Files ###
+.cxx/
+.externalNativeBuild/
+*.keystore
+*.jks
+
+### Miscellaneous ###
+*.swp
+*.swo
+.DS_Store
